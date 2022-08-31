@@ -87,4 +87,4 @@ async def schedule_message(h, m, s, channelid):
 
 
 #The token that allows the bot to run
-client.run('MTAxMzgyODYwNzQ3MjMyMDU2NA.GJ9kOG.VIez0vRq0eiousx_uwM0rZKj6VWovzp0EbeZWE')
+client.run(DISCORD_TOKEN)

@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 import random, datetime, asyncio
@@ -87,4 +88,4 @@ async def schedule_message(h, m, s, channelid):
 
 
 #The token that allows the bot to run
-client.run(DISCORD_TOKEN)
+client.run(os.environ["DISCORD_TOKEN"])
